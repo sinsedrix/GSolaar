@@ -1,0 +1,31 @@
+  Fichier INSTALL pour GSolaar 0.4.0 (15/07/2008)
+  GSolaar - Programme d'exploration et de génération de patrons de polyèdres
+
+===============================================================================
+
+* Auto-installeur Windows :
+
+    - Suivre les étapes de l'auto-installeur
+    
+* Paquetage tarball :
+
+    - L'installation nécessite la présence des bibliothèques :
+        . Gtk+2
+        . GtkGLExt
+        . pkg-config
+
+    - Copiez l'archive compressée dans votre répertoire :
+        % cp GSolaar-{version}.tar.gz ~ 
+        ou
+        % cp GSolaar-{version}.tar.bz2 ~ 
+
+    - Décompressez-le :
+        % tar xvzf GSolaar-{version}.tar.gz
+        ou
+        % tar xvjf GSolaar-{version}.tar.bz2
+
+    - Compilez-le :
+        % ./configure && make
+
+    - Installez-le (optionnel) :
+        % make install

@@ -1,0 +1,238 @@
+# Russian translation for gsolaar
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the gsolaar package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gsolaar\n"
+"Report-Msgid-Bugs-To: sinsedrix@users.sourceforge.net\n"
+"POT-Creation-Date: 2009-08-15 13:38+0200\n"
+"PO-Revision-Date: 2009-08-01 11:28+0000\n"
+"Last-Translator: Nkolay Parukhin <parukhin@gmail.com>\n"
+"Language-Team: Russian <ru@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2009-08-01 15:56+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: src/widgets/saa-exportdialog.c:56
+msgid "Format:"
+msgstr "Формат:"
+
+#: src/widgets/saa-exportdialog.c:57
+msgid "Scale:"
+msgstr "Масштаб:"
+
+#: src/widgets/saa-exportdialog.c:58
+msgid "Edge name:"
+msgstr "Название ребра:"
+
+#: src/widgets/saa-exportdialog.c:59
+msgid "Tongue:"
+msgstr "Язычок:"
+
+#: src/widgets/saa-exportdialog.c:69
+msgid "Generate a pattern"
+msgstr "Генерировать шаблон"
+
+#: src/widgets/saa-exportdialog.c:100 src/widgets/saa-exportdialog.c:108
+msgid "None"
+msgstr "Нет"
+
+#: src/widgets/saa-exportdialog.c:101
+msgid "Upside the edge"
+msgstr "Верхняя часть ребра"
+
+#: src/widgets/saa-exportdialog.c:102
+msgid "Downside the edge"
+msgstr "Нижняя часть ребра"
+
+#: src/widgets/saa-exportdialog.c:109
+msgid "Regular"
+msgstr "Обычный"
+
+#: src/widgets/saa-exportdialog.c:110
+msgid "On the greatest wing"
+msgstr "На наибольшей грани"
+
+#: src/widgets/saa-exportdialog.c:111
+msgid "On the smallest wing"
+msgstr "На наименьшей грани"
+
+#: src/widgets/saa-exportdialog.c:112
+msgid "All"
+msgstr "Все"
+
+#: src/widgets/saa-drawingarea.c:98
+msgid "OpenGL configuration impossible.\n"
+msgstr "Конфигурация OpenGL невыполнима.\n"
+
+#: src/widgets/saa-mainwindow.c:164
+msgid "_File"
+msgstr "_Файл"
+
+#: src/widgets/saa-mainwindow.c:182
+msgid "_Export"
+msgstr "_Экспорт"
+
+#: src/widgets/saa-mainwindow.c:193
+msgid "Pattern ..."
+msgstr "Шаблон..."
+
+#: src/widgets/saa-mainwindow.c:197
+msgid "Ruby script for SketchUp ..."
+msgstr "Ruby скрипт для SketchUp..."
+
+#: src/widgets/saa-mainwindow.c:243
+msgid "Polyhedron"
+msgstr "Многогранник"
+
+#: src/widgets/saa-mainwindow.c:257
+msgid "Uniform polyhedra"
+msgstr "Однородный многогранник"
+
+#: src/widgets/saa-mainwindow.c:273
+msgid "Treatment"
+msgstr "Обработка"
+
+#: src/widgets/saa-mainwindow.c:283
+msgid "Navigation"
+msgstr "Навигация"
+
+#: src/widgets/saa-mainwindow.c:305
+msgid "Display"
+msgstr "Отображение"
+
+#: src/widgets/saa-mainwindow.c:407 src/widgets/saa-mainwindow.c:439
+#, c-format
+msgid "Unable to load the file %s"
+msgstr "Невозможно загрузить файл %s"
+
+#: src/widgets/saa-mainwindow.c:424 src/widgets/saa-solidmanager.c:143
+msgid "Load a solid"
+msgstr "Загрузить тело"
+
+#: src/widgets/saa-mainwindow.c:481
+msgid "Generate a Ruby script"
+msgstr "Создать Ruby скрипт"
+
+#: src/widgets/saa-mainwindow.c:505
+msgid "Save a solid"
+msgstr "Сохранить тело"
+
+#: src/widgets/saa-soliddisplay.c:99 src/widgets/saa-treeview.c:143
+msgid "Vertices"
+msgstr "Вершины"
+
+#: src/widgets/saa-soliddisplay.c:108 src/widgets/saa-soliddisplay.c:137
+#: src/widgets/saa-soliddisplay.c:166
+msgid "Do not display"
+msgstr "Не показывать"
+
+#: src/widgets/saa-soliddisplay.c:112 src/widgets/saa-soliddisplay.c:141
+msgid "Molecular"
+msgstr "Молекулярный"
+
+#: src/widgets/saa-soliddisplay.c:116
+msgid "Point"
+msgstr "Точка"
+
+#: src/widgets/saa-soliddisplay.c:128 src/widgets/saa-treeview.c:154
+msgid "Edges"
+msgstr "Рёбра"
+
+#: src/widgets/saa-soliddisplay.c:145
+msgid "Line"
+msgstr "Линия"
+
+#: src/widgets/saa-soliddisplay.c:157 src/widgets/saa-treeview.c:167
+msgid "Wings"
+msgstr "Грани"
+
+#: src/widgets/saa-soliddisplay.c:170
+msgid "Triangulation"
+msgstr "Триангуляция"
+
+#: src/widgets/saa-soliddisplay.c:174
+msgid "Colour"
+msgstr "Цвет"
+
+#: src/widgets/saa-soliddisplay.c:187
+msgid "Lighting"
+msgstr "Освещение"
+
+#: src/widgets/saa-soliddisplay.c:191
+msgid "Transparency"
+msgstr "Прозрачность"
+
+#: src/widgets/saa-soliddisplay.c:195
+msgid "Axes"
+msgstr "Оси"
+
+#: src/widgets/saa-soliddisplay.c:199
+msgid "Background"
+msgstr "Фон"
+
+#: src/widgets/saa-solidhandler.c:86
+msgid "1 - Cutting"
+msgstr "1 - Разрезание"
+
+#: src/widgets/saa-solidhandler.c:91
+msgid "2 - Empty-fication"
+msgstr "2 - Очистка"
+
+#: src/widgets/saa-solidhandler.c:96
+msgid "3 - Fusion"
+msgstr "3 - Объединение"
+
+#: src/widgets/saa-solidhandler.c:142
+#, c-format
+msgid "Fail while cutting polyhedron %s\n"
+msgstr "Сбой при разрезании многогранника %s\n"
+
+#: src/widgets/saa-solidhandler.c:158
+#, c-format
+msgid "Fail while emptying polyhedron %s\n"
+msgstr "Сбой при очистке многогранника %s\n"
+
+#: src/widgets/saa-solidhandler.c:174
+#, c-format
+msgid "Fail while fusing polyhedron %s\n"
+msgstr "Сбой при объединении многогранника %s\n"
+
+#: src/widgets/saa-solidmanager.c:88
+msgid "Number:"
+msgstr "Число:"
+
+#: src/widgets/saa-solidmanager.c:111
+msgid "Wythoff symbol:"
+msgstr "Символ Wythoff'а:"
+
+#: src/widgets/saa-solidmanager.c:132
+msgid "Dual"
+msgstr "Двойной"
+
+#: src/widgets/saa-solidmanager.c:138
+msgid "File:"
+msgstr "Файл:"
+
+#: src/widgets/saa-solidmanager.c:270 src/widgets/saa-solidmanager.c:297
+#: src/widgets/saa-solidmanager.c:335
+#, c-format
+msgid ""
+"Fail to create polyhedra %s\n"
+"(likely non-orientable)"
+msgstr ""
+"Сбой создания многогранника %s\n"
+"(вероятно неориентируемого)"
+
+#: src/widgets/saa-solidmanager.c:356
+msgid "Please select a file"
+msgstr "Пожалуйста, выберите файл"
+
+#: src/widgets/saa-solidmanager.c:364
+#, c-format
+msgid "Fail to load the file %s"
+msgstr "Сбой загрузки файла %s"

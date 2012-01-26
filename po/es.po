@@ -1,0 +1,236 @@
+# Spanish translation for gsolaar
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the gsolaar package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gsolaar\n"
+"Report-Msgid-Bugs-To: sinsedrix@users.sourceforge.net\n"
+"POT-Creation-Date: 2009-08-15 13:38+0200\n"
+"PO-Revision-Date: 2009-06-24 15:43+0000\n"
+"Last-Translator: Sinsedrix <sinsedrix@users.sourceforge.net>\n"
+"Language-Team: Cedric Couliou <sinsedrix@users.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2009-06-24 15:48+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: src/widgets/saa-exportdialog.c:56
+msgid "Format:"
+msgstr "Formato:"
+
+#: src/widgets/saa-exportdialog.c:57
+msgid "Scale:"
+msgstr "Escala:"
+
+#: src/widgets/saa-exportdialog.c:58
+msgid "Edge name:"
+msgstr "Nombre de cresta:"
+
+#: src/widgets/saa-exportdialog.c:59
+msgid "Tongue:"
+msgstr "Lengua:"
+
+#: src/widgets/saa-exportdialog.c:69
+msgid "Generate a pattern"
+msgstr "Generar un patrón"
+
+#: src/widgets/saa-exportdialog.c:100 src/widgets/saa-exportdialog.c:108
+msgid "None"
+msgstr "Ningunos"
+
+#: src/widgets/saa-exportdialog.c:101
+msgid "Upside the edge"
+msgstr "Sobre la creta"
+
+#: src/widgets/saa-exportdialog.c:102
+msgid "Downside the edge"
+msgstr "Bajo la creta"
+
+#: src/widgets/saa-exportdialog.c:109
+msgid "Regular"
+msgstr "Normal"
+
+#: src/widgets/saa-exportdialog.c:110
+msgid "On the greatest wing"
+msgstr "En la grandísima ala"
+
+#: src/widgets/saa-exportdialog.c:111
+msgid "On the smallest wing"
+msgstr "En la más pequeña ala"
+
+#: src/widgets/saa-exportdialog.c:112
+msgid "All"
+msgstr "Todas"
+
+#: src/widgets/saa-drawingarea.c:98
+msgid "OpenGL configuration impossible.\n"
+msgstr "OpenGL configuracion impossible.\\n\n"
+
+#: src/widgets/saa-mainwindow.c:164
+msgid "_File"
+msgstr "_Fichero"
+
+#: src/widgets/saa-mainwindow.c:182
+msgid "_Export"
+msgstr "_Exportar"
+
+#: src/widgets/saa-mainwindow.c:193
+msgid "Pattern ..."
+msgstr "Patrón"
+
+#: src/widgets/saa-mainwindow.c:197
+msgid "Ruby script for SketchUp ..."
+msgstr "Ruby scripto por SketchUp ..."
+
+#: src/widgets/saa-mainwindow.c:243
+msgid "Polyhedron"
+msgstr "Poliedro"
+
+#: src/widgets/saa-mainwindow.c:257
+msgid "Uniform polyhedra"
+msgstr "Unformes poliedros"
+
+#: src/widgets/saa-mainwindow.c:273
+msgid "Treatment"
+msgstr "Trato"
+
+#: src/widgets/saa-mainwindow.c:283
+msgid "Navigation"
+msgstr "Navegación"
+
+#: src/widgets/saa-mainwindow.c:305
+msgid "Display"
+msgstr "Visualización"
+
+#: src/widgets/saa-mainwindow.c:407 src/widgets/saa-mainwindow.c:439
+#, c-format
+msgid "Unable to load the file %s"
+msgstr "Cargar el fichero %s es impossible"
+
+#: src/widgets/saa-mainwindow.c:424 src/widgets/saa-solidmanager.c:143
+msgid "Load a solid"
+msgstr "Cargar un sólido"
+
+#: src/widgets/saa-mainwindow.c:481
+msgid "Generate a Ruby script"
+msgstr "Generar un Ruby scripto"
+
+#: src/widgets/saa-mainwindow.c:505
+msgid "Save a solid"
+msgstr "Salvar un sólido"
+
+#: src/widgets/saa-soliddisplay.c:99 src/widgets/saa-treeview.c:143
+msgid "Vertices"
+msgstr "Vértices"
+
+#: src/widgets/saa-soliddisplay.c:108 src/widgets/saa-soliddisplay.c:137
+#: src/widgets/saa-soliddisplay.c:166
+msgid "Do not display"
+msgstr "No mostrar"
+
+#: src/widgets/saa-soliddisplay.c:112 src/widgets/saa-soliddisplay.c:141
+msgid "Molecular"
+msgstr "Molecular"
+
+#: src/widgets/saa-soliddisplay.c:116
+msgid "Point"
+msgstr "Punto"
+
+#: src/widgets/saa-soliddisplay.c:128 src/widgets/saa-treeview.c:154
+msgid "Edges"
+msgstr "Bordes"
+
+#: src/widgets/saa-soliddisplay.c:145
+msgid "Line"
+msgstr "Línea"
+
+#: src/widgets/saa-soliddisplay.c:157 src/widgets/saa-treeview.c:167
+msgid "Wings"
+msgstr "Alas"
+
+#: src/widgets/saa-soliddisplay.c:170
+msgid "Triangulation"
+msgstr "Triangulación"
+
+#: src/widgets/saa-soliddisplay.c:174
+msgid "Colour"
+msgstr "Color"
+
+#: src/widgets/saa-soliddisplay.c:187
+msgid "Lighting"
+msgstr "Iluminación"
+
+#: src/widgets/saa-soliddisplay.c:191
+msgid "Transparency"
+msgstr "Transparencia"
+
+#: src/widgets/saa-soliddisplay.c:195
+msgid "Axes"
+msgstr "Ejes"
+
+#: src/widgets/saa-soliddisplay.c:199
+msgid "Background"
+msgstr "Fondo"
+
+#: src/widgets/saa-solidhandler.c:86
+msgid "1 - Cutting"
+msgstr "1 - Recortado"
+
+#: src/widgets/saa-solidhandler.c:91
+msgid "2 - Empty-fication"
+msgstr "2 - Vaciado"
+
+#: src/widgets/saa-solidhandler.c:96
+msgid "3 - Fusion"
+msgstr "3 - Fusión"
+
+#: src/widgets/saa-solidhandler.c:142
+#, c-format
+msgid "Fail while cutting polyhedron %s\n"
+msgstr "Error quando recorta el poliedro %s\\n\n"
+
+#: src/widgets/saa-solidhandler.c:158
+#, c-format
+msgid "Fail while emptying polyhedron %s\n"
+msgstr "Error quando vacia el poliedro %s\\n\n"
+
+#: src/widgets/saa-solidhandler.c:174
+#, c-format
+msgid "Fail while fusing polyhedron %s\n"
+msgstr "Error quando pega el poliedro %s\\n\n"
+
+#: src/widgets/saa-solidmanager.c:88
+msgid "Number:"
+msgstr "Número:"
+
+#: src/widgets/saa-solidmanager.c:111
+msgid "Wythoff symbol:"
+msgstr "Symbole de Wythoff:"
+
+#: src/widgets/saa-solidmanager.c:132
+msgid "Dual"
+msgstr "Dual"
+
+#: src/widgets/saa-solidmanager.c:138
+msgid "File:"
+msgstr "Fichero:"
+
+#: src/widgets/saa-solidmanager.c:270 src/widgets/saa-solidmanager.c:297
+#: src/widgets/saa-solidmanager.c:335
+#, c-format
+msgid ""
+"Fail to create polyhedra %s\n"
+"(likely non-orientable)"
+msgstr "Fracasando crear el poliedro %s(probablemente non-orientisable)"
+
+#: src/widgets/saa-solidmanager.c:356
+msgid "Please select a file"
+msgstr "Por favor, seleccione un fichero"
+
+#: src/widgets/saa-solidmanager.c:364
+#, c-format
+msgid "Fail to load the file %s"
+msgstr "Fracasando cargando el fichero %s"

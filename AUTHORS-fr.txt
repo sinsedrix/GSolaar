@@ -1,0 +1,9 @@
+  Fichier AUTHORS pour GSolaar 0.4.0 (15/06/2009)
+  GSolaar - Programme d'exploration et de génération de patrons de polyèdres
+
+===============================================================================
+
+Conception et réalisation : Cédric COULIOU (alias sinsedrix).
+Etudiant en Master professionnel d'Informatique du Logiciel à l'Université de
+Bretagne Occidentale à Brest.
+Contribution : Morgan L'HOSTIS.

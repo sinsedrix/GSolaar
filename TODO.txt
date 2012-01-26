@@ -1,0 +1,11 @@
+  Fichier TODO.txt pour GSolaar 0.4.0 (08/06/2009)
+  GSolaar - Programme d'exploration et de génération de patrons de polyèdres
+
+===============================================================================
+
+  + Gérer les tableaux de sommets avec des listes (optimisation).
+  + Proposer un mode patron avec recollement des arêtes.
+  + Proposer d'autres modes d'export des modèles 3D (VRML, ...).
+  + Rediriger les fichier de log vers une fenêtre dans l'interface.
+
+===============================================================================

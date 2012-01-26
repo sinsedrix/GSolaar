@@ -1,0 +1,238 @@
+# Breton translations for GSolaar package.
+# Copyright (C) 2009 THE GSolaar'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the GSolaar package.
+# Cedric Couliou <sinsedrix@users.sourceforge.net>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GSolaar 0.4.0\n"
+"Report-Msgid-Bugs-To: sinsedrix@users.sourceforge.net\n"
+"POT-Creation-Date: 2009-08-15 13:38+0200\n"
+"PO-Revision-Date: 2009-06-24 15:06+0000\n"
+"Last-Translator: Sinsedrix <sinsedrix@users.sourceforge.net>\n"
+"Language-Team: Cedric Couliou <sinsedrix@users.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2009-06-24 15:48+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: src/widgets/saa-exportdialog.c:56
+msgid "Format:"
+msgstr "Furmad :"
+
+#: src/widgets/saa-exportdialog.c:57
+msgid "Scale:"
+msgstr "Skeulaet :"
+
+#: src/widgets/saa-exportdialog.c:58
+msgid "Edge name:"
+msgstr "Anv a ker :"
+
+#: src/widgets/saa-exportdialog.c:59
+msgid "Tongue:"
+msgstr "Teodenn :"
+
+#: src/widgets/saa-exportdialog.c:69
+msgid "Generate a pattern"
+msgstr "Genel un patrom"
+
+#: src/widgets/saa-exportdialog.c:100 src/widgets/saa-exportdialog.c:108
+msgid "None"
+msgstr "Ebet"
+
+#: src/widgets/saa-exportdialog.c:101
+msgid "Upside the edge"
+msgstr "A-us da ker"
+
+#: src/widgets/saa-exportdialog.c:102
+msgid "Downside the edge"
+msgstr "A-is da ker"
+
+#: src/widgets/saa-exportdialog.c:109
+msgid "Regular"
+msgstr "Boutin"
+
+#: src/widgets/saa-exportdialog.c:110
+msgid "On the greatest wing"
+msgstr "Gant ar askel pep bras"
+
+#: src/widgets/saa-exportdialog.c:111
+msgid "On the smallest wing"
+msgstr "Gant ar askel pep bihan"
+
+#: src/widgets/saa-exportdialog.c:112
+msgid "All"
+msgstr "Holl"
+
+#: src/widgets/saa-drawingarea.c:98
+msgid "OpenGL configuration impossible.\n"
+msgstr "Kefluniadur a OpenGL dic'hreüs\n"
+
+#: src/widgets/saa-mainwindow.c:164
+msgid "_File"
+msgstr "_Restr"
+
+#: src/widgets/saa-mainwindow.c:182
+msgid "_Export"
+msgstr "_Ezporzhiañ"
+
+#: src/widgets/saa-mainwindow.c:193
+msgid "Pattern ..."
+msgstr "Patrom ..."
+
+#: src/widgets/saa-mainwindow.c:197
+msgid "Ruby script for SketchUp ..."
+msgstr "Tarzh Ruby da Sketchup ..."
+
+#: src/widgets/saa-mainwindow.c:243
+msgid "Polyhedron"
+msgstr "Liestaleg"
+
+#: src/widgets/saa-mainwindow.c:257
+msgid "Uniform polyhedra"
+msgstr "Liestalegoù unneuz"
+
+#: src/widgets/saa-mainwindow.c:273
+msgid "Treatment"
+msgstr "Labour"
+
+#: src/widgets/saa-mainwindow.c:283
+msgid "Navigation"
+msgstr "Merdeadurezh"
+
+#: src/widgets/saa-mainwindow.c:305
+msgid "Display"
+msgstr "Skrammañ"
+
+#: src/widgets/saa-mainwindow.c:407 src/widgets/saa-mainwindow.c:439
+#, c-format
+msgid "Unable to load the file %s"
+msgstr "Dic'hreüs klask restr %s"
+
+#: src/widgets/saa-mainwindow.c:424 src/widgets/saa-solidmanager.c:143
+msgid "Load a solid"
+msgstr "Klask ur teirmenteg"
+
+#: src/widgets/saa-mainwindow.c:481
+msgid "Generate a Ruby script"
+msgstr "Gelem ur tarzh Ruby"
+
+#: src/widgets/saa-mainwindow.c:505
+msgid "Save a solid"
+msgstr "Enrollañ ur liestaleg"
+
+#: src/widgets/saa-soliddisplay.c:99 src/widgets/saa-treeview.c:143
+msgid "Vertices"
+msgstr "Kernoù"
+
+#: src/widgets/saa-soliddisplay.c:108 src/widgets/saa-soliddisplay.c:137
+#: src/widgets/saa-soliddisplay.c:166
+msgid "Do not display"
+msgstr "Kuit skritellañ"
+
+#: src/widgets/saa-soliddisplay.c:112 src/widgets/saa-soliddisplay.c:141
+msgid "Molecular"
+msgstr "Evel-mañ molekul"
+
+#: src/widgets/saa-soliddisplay.c:116
+msgid "Point"
+msgstr "Pik"
+
+#: src/widgets/saa-soliddisplay.c:128 src/widgets/saa-treeview.c:154
+msgid "Edges"
+msgstr "Kerioù"
+
+#: src/widgets/saa-soliddisplay.c:145
+msgid "Line"
+msgstr "Linenn"
+
+#: src/widgets/saa-soliddisplay.c:157 src/widgets/saa-treeview.c:167
+msgid "Wings"
+msgstr "Askelloù"
+
+#: src/widgets/saa-soliddisplay.c:170
+msgid "Triangulation"
+msgstr "Tric'hornegadur"
+
+#: src/widgets/saa-soliddisplay.c:174
+msgid "Colour"
+msgstr "Liv"
+
+#: src/widgets/saa-soliddisplay.c:187
+msgid "Lighting"
+msgstr "Goulaouadur"
+
+#: src/widgets/saa-soliddisplay.c:191
+msgid "Transparency"
+msgstr "Treuzwelusted"
+
+#: src/widgets/saa-soliddisplay.c:195
+msgid "Axes"
+msgstr "Ahelioù"
+
+#: src/widgets/saa-soliddisplay.c:199
+msgid "Background"
+msgstr "Drekleur"
+
+#: src/widgets/saa-solidhandler.c:86
+msgid "1 - Cutting"
+msgstr "1 - Sizailherezh"
+
+#: src/widgets/saa-solidhandler.c:91
+msgid "2 - Empty-fication"
+msgstr "2 - Divouzellerezh"
+
+#: src/widgets/saa-solidhandler.c:96
+msgid "3 - Fusion"
+msgstr "3 - Kendeuzidigezh"
+
+#: src/widgets/saa-solidhandler.c:142
+#, c-format
+msgid "Fail while cutting polyhedron %s\n"
+msgstr "Fazi gant sizailherezh a liestaleg %s\\n\n"
+
+#: src/widgets/saa-solidhandler.c:158
+#, c-format
+msgid "Fail while emptying polyhedron %s\n"
+msgstr "Fazi gant divouzellerezh a liestaleg %s\\n\n"
+
+#: src/widgets/saa-solidhandler.c:174
+#, c-format
+msgid "Fail while fusing polyhedron %s\n"
+msgstr "Fazi gant kendeuzidigezh a liestaleg %s\\n\n"
+
+#: src/widgets/saa-solidmanager.c:88
+msgid "Number:"
+msgstr "Niverenn :"
+
+#: src/widgets/saa-solidmanager.c:111
+msgid "Wythoff symbol:"
+msgstr "Arouez a Wythoff :"
+
+#: src/widgets/saa-solidmanager.c:132
+msgid "Dual"
+msgstr "Daouel"
+
+#: src/widgets/saa-solidmanager.c:138
+msgid "File:"
+msgstr "Restr :"
+
+#: src/widgets/saa-solidmanager.c:270 src/widgets/saa-solidmanager.c:297
+#: src/widgets/saa-solidmanager.c:335
+#, c-format
+msgid ""
+"Fail to create polyhedra %s\n"
+"(likely non-orientable)"
+msgstr ""
+"Fazi gant krouadelezh a liestaleg %s\n"
+"(emichañs nannsko)"
+
+#: src/widgets/saa-solidmanager.c:356
+msgid "Please select a file"
+msgstr "Plijet deoc'h diuzañ ur restr"
+
+#: src/widgets/saa-solidmanager.c:364
+#, c-format
+msgid "Fail to load the file %s"
+msgstr "Fazi gant klaskerezh a restr %s"

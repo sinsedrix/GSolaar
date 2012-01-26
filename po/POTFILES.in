@@ -1,0 +1,10 @@
+# List of source files containing translatable strings.
+# Please keep this file sorted alphabetically.
+# [encoding: UTF-8]
+src/widgets/saa-exportdialog.c
+src/widgets/saa-drawingarea.c
+src/widgets/saa-mainwindow.c
+src/widgets/saa-soliddisplay.c
+src/widgets/saa-solidhandler.c
+src/widgets/saa-solidmanager.c
+src/widgets/saa-treeview.c

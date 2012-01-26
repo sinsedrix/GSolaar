@@ -1,0 +1,89 @@
+  Fichier ChangeLog pour GSolaar 0.4.2 (17/08/2009)
+  GSolaar - Programme d'exploration et de génération de patrons de polyèdres
+
+===============================================================================
+
+Version 0.4.2
+  * Nouvelles traductions : russe (logiciel et installeur)
+  * Correction de la variable d'environnement LANG sous Windows
+    (Closes bug: #2835531)
+  * Mise à jour du fichier acinclude.m4 pour inclure tous les fichiers du répertoire m4
+    (Closes bug: #2840590)
+  * Definition de __OPTIMIZE__ pour l'inclusion de <locale.h>
+    (Closes bug: #2840595)
+  * Installation des traductions (dos2unix LINGUAS)
+    (Closes bug: #2840957) 
+
+Version 0.4.1
+  * Nouvelles traductions : breton et espagnol (logiciel et installeur)
+  * Remise en forme du script nsis (inspiré de celui d'inkscape)
+    (Closes bug: #2811648)
+  * Positionnement de la variable d'environnement LANG sous Windows
+    (Closes bug: #2811622)
+  * Ajout de cygiconv-2.dll et cygintl-8.dll dans les bibliothèques de l'auto-installeur
+    (Closes bug: #2823621 et #2823627)
+
+Version 0.4.0
+  * Amélioration de l'algorithme d'évidage (rayons extérieurs).
+  * Animation de la sélection
+  * Feedback de la sélection depuis la fenêtre de navigation vers l'image
+  * Fenêtre de dialogue avec options avancées pour l'export des patrons
+    (Closes feature request: #2771182)
+  * Génération de patrons au format SVG 1.2 (multipages)
+  * Mise en place de gettext (français avec accents et anglais)
+    * Makefile.am (SUBDIRS): Add po.
+    * (ACLOCAL_AMFLAGS): New variable.
+    * (EXTRA_DIST): Add config.rpath, m4/ChangeLog.
+    * configure.ac (AC_OUTPUT): Add po/Makefile.in.
+
+Version 0.3.1
+  * Patch correctif : ajout de zlib1.dll dans les bibliothèques de l'auto-installeur
+    (Closes bug: #2790523)
+
+Version 0.3.0
+  * Refactorisation complète du projet :
+    * Bibliothèque de calcul sur les solides (saacore)
+    * Bibliothèque d'export de patrons et d'objets 3D (saaexport).
+    * Bibliothèque de widget (saawidget)
+    * Utilisation des outils de configuration GNU (autoconf/automake)
+    * Création d'un auto installeur pour Windows (NSIS)
+  * Correction des algorithmes de traitement :
+    * Utilisation de projections orthogonales sur les plans de découpe
+    * Calcul d'intersection des arêtes plus généraliste
+    * Calcul d'intersection de faces plus restrictif
+  * Intégration du projet sous Eclipse.
+  * Tests concluents sous Vista, Ubuntu 8.10, Fedora 10, Mandriva One 2009.
+  * Export/Import des solides au format XML.
+  * Génération de patrons en PostScript et SVG (1.0)
+  * Génération de scripts Ruby pour les plugins de SketchUp
+  * Nette amélioration de la gestion de la mémoire.
+  * Ajustement de setlocale pour les valeurs numériques
+    (Closes bug: #1080536)
+
+Version 0.2.0
+  * Utilisation de GtkGLExt au lieu de GtkGLArea.
+  * Correction des algorithmes de traitement :
+    * évider : nouvelle logique d'élimination de faces cachées (plus générale).
+    * découper : nouvelle logique de sélection des faces :
+      faces en intersection directe (pas seulement par leur plan).
+    * fusionner : fusion des arêtes téléscopées.
+  * Construction d'une bibliothèque (saa) pour les solides arêtes-ailées :
+    * saa : structures et génération des polyèdres.
+    * saa-process : traitements sur les polyèdres.
+    * saa-graphic : visualisation des polyèdres.
+
+Version 0.1.2
+  * Correction du frustum.
+  * Correction du chargement des scripts.
+  * Utilisation du tampon de profondeur.
+  * Correction de la transparence :
+    effacement du depth buffer avant sa desactivation.
+  * Activation de la couleur.
+
+Version 0.1.0
+  * Création de l'interface gtk+gtkglarea.
+  * Mise à jour de l'interface glut.
+  * Création de la bibliothèque "gsolideAA".
+  * Mise à jour de la bibliothèque "solideAA".
+
+===============================================================================

@@ -1,0 +1,9 @@
+  AUTHORS-en file for GSolaar 0.4.0 (15/06/2009)
+  GSolaar - Polyhedra pattern generator and explorer
+
+===============================================================================
+
+Conception and realisation: Cédric COULIOU (alias sinsedrix).
+Student in a professionnal Master: (Software Computer Science) at 
+Université de Bretagne Occidentale in Brest (France).
+Contribution: Morgan L'HOSTIS.

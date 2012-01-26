@@ -1,0 +1,92 @@
+.TH SOLAAR 1 "1er Decembre 2008" "Version 0.3.0" "Pages de Manuel de SOLAAR"
+
+.SH NOM
+solaar - un programme de traitement de polyèdres utilisant kaleido.
+.SH SYNOPSIS
+.B solaar
+.PP
+N[mnopq][sx][b][c][def][2]	\fINumeroPolyedre\fP
+.PP
+W[mnopq][sx][b][c][def][2]  \fI'Wythoff formula'\fP
+.PP
+X[mnopq][sx][b][c][def]  \fIPolyedre.saa\fP
+
+.SH DESCRIPTION
+.PP
+\fISOLAAR\fP est un programme permettant l'étude de polyèdres dans un modèle
+arêtes-ailées. La fonction la plus interressante est la génération de patrons
+de polyèdres dans un fichier PostScript. Les polyèdres étudiés sont extraits
+d'un générateur nommé kaleido.
+.TP 8
+.B Mode N
+L'argument est un numéro de polyèdre sa valeur est comprise entre 1 et 80.
+.TP 8
+.B Mode X
+L'argument est un nom de fichier XML (.saa) dans lequel le programme va tenter de lire un solide.
+.TP 8
+.B Mode W
+L'argument est une formule de Wythoff sous une des formes suivantes :
+.PP
+.B  p q r |
+.PP
+.B  p q | r
+.PP
+.B  p | q r
+.PP
+.B  | p q r
+.PP
+où (p q r) est un triangle de Shwarz.
+.PP
+Attention certains polyèdres non-orientés ne sont pas supportés par le
+modèle arêtes-ailées.
+        
+.SH OPTIONS
+\fIsolaar\fP accepte les options suivantes pour le polyèdre à traiter :
+
+.TP 8
+.B m
+Génère un patron PostScript du polyèdre. Mode "Ailes séparées".
+.TP 8
+.B n
+Génère un patron PostScript du polyèdre. Mode "Ailes collées".
+.TP 8
+.B o
+Génère un patron SVG du polyèdre. Mode "Ailes séparées".
+.TP 8
+.B  p
+Génère un patron SVG du polyèdre. Mode "Ailes collées".
+.TP 8
+.B s
+Génère le script du polyèdre.
+.TP 8
+.B x
+Génère le XML du polyèdre.
+.TP 8
+.B b
+Segmentation du polyèdre selon ses arêtes en intersection.
+.TP 8
+.B c
+Segmentation + Décroisement des faces croisées.
+.TP 8
+.B d
+Segmentation + Décroisement + Découpage du polyèdre selon ses faces en intersection.
+.TP 8
+.B e
+Récupération du contour du polyèdre par élimination des faces cachées.
+.TP 8
+.B f
+Fusion des faces voisines du polyèdre se trouvant dans un même plan.
+.TP 8
+.B 2
+Le polyèdre à traiter devient le dual (option non disponible pour les scripts
+chargés).
+
+.SH SUGGESTIONS ET REPORTS DE BUGS
+Tout bug peut être signalé sur le site du projet 
+http://sourceforge.net/tracker/?group_id=125367
+
+
+.SH AUTEUR
+Cédric COULIOU alias
+http://sourceforge.net/users/sinsedrix/
+

@@ -1,0 +1,31 @@
+  INSTALL.en file for GSolaar 0.4.0 (15/07/2008)
+  GSolaar - Polyhedra pattern generator and explorer
+
+===============================================================================
+
+* Windows auto-installer:
+
+    - Just follow the auto-installer steps
+    
+* Tarball package:
+
+    - Instalation require the following libraries:
+        . Gtk+2
+        . GtkGLExt
+        . pkg-config
+
+    - Copy the compressed tarball in your directory:
+        % cp GSolaar-{version}.tar.gz ~ 
+        or
+        % cp GSolaar-{version}.tar.bz2 ~ 
+
+    - Uncompress it:
+        % tar xvzf GSolaar-{version}.tar.gz
+        or
+        % tar xvjf GSolaar-{version}.tar.bz2
+
+    - Build it:
+        % ./configure && make
+
+    - Install it (optional):
+        % make install
