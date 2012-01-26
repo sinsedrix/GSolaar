@@ -1,0 +1,84 @@
+  Fichier README pour GSolaar 0.4.0 (15/07/2008)
+  GSolaar - Programme d'exploration et de génération de patrons de polyèdres
+
+===============================================================================
+
+Ce fichier contient les informations suivantes :
+
+  - Qu'est-ce que GSolaar ?
+  - Utilisation
+  - Fonctionnement des programmes
+  - Copyright
+  - Contenu du paquetage
+
+
+QU'EST-CE QUE GSolaar ?
+-----------------------------
+
+    GSolaar permet la visualisation de polyèdres et la génération de leurs 
+  patrons (en PostScript et en SVG) en vue d'une construction papier selon
+  certaines restrictions (voir fonctionnement).
+
+    Ce projet fait suite à un travail d'étude et de recherche effectué à 
+  l'Université de Nantes qui était encadré par Philippe Martin.
+
+    Il utilise le programme "kaleido" du Dr. Zvi Har'El du Department of
+  Mathematics, Technion à l'Israel Institute of Technology, permettant la
+  génération de polyèdres uniformes sous forme de matrices d'adjacence.
+
+    La bibliothèque "saa" permet la génération, la visualisation et le
+  traitement de ces polyèdres d'après un modèle dit arêtes-ailées.
+    La bibliothèque "gtk" implémente des widget permettant la manipulation
+  des polyèdres.
+
+
+UTILISATION
+-----------
+
+  Le projet GSolaar fournit deux exécutables :
+  
+  * solaar  : programme de traitement en ligne de commande
+    -> voir la page de manuel de solaar
+    
+  * gsolaar : programme de visualisation et de traitement avec interface graphique
+    
+
+
+FONCTIONNEMENT DES PROGRAMMES
+-----------------------------
+
+    Tous les patrons de polyèdres ne peuvent pas être directement générés, en
+  particulier les polyèdres non-convexes dans lesquels les faces se croisent.
+    
+    En ce qui concerne les polyèdres non-orientés, le modèle arêtes-ailées avait
+  pour but de les éviter mais il s'est avéré que certains d'entre eux 
+  supportaient le modèle (exemple : #8 Octahemioctahedron). La détection de ces
+  polyèdres reste donc du ressort de l'utilisateur.
+
+    Enfin, on notera que les polyèdres qui conviennent à l'utilisation des
+  traitements doivent être étoilés (càd : tout sommet doit être visible
+  depuis le centre du solide).
+
+    Les différents traitements implémentés on pour but de conserver la partie
+  visible (de l'extérieur) des faces d'un polyèdre, cela se fait selon trois
+  manipulations principales :
+  1. Découpage des faces en intersection
+  2. Elimination des faces intérieures
+  3. Fusion des morceaux de faces restants
+
+
+COPYRIGHT
+---------
+
+GSolaar Copyright (c) (2003-2004) Cédric COULIOU
+Contact : sinsedrix@users.sourceforge.net
+
+
+CONTENU DU PAQUETAGE
+--------------------
+
+  Cette partie décrit le contenu du paquetage tel qu'il est fourni, c'est à
+dire avant compilation donc sans les binaires.
+
+
+===============================================================================
