@@ -1,6 +1,6 @@
   Fichier README pour GSolaar 0.4.0 (15/07/2008)
-  GSolaar - Programme d'exploration et de génération de patrons de polyèdres
-
+  GSolaar - Programme d'exploration et de gÃ©nÃ©ration de patrons de polyÃ¨dres
+  [![endorse](http://api.coderwall.com/sinsedrix/endorsecount.png)](http://coderwall.com/sinsedrix) 
 ===============================================================================
 
 Ce fichier contient les informations suivantes :
@@ -15,27 +15,27 @@ Ce fichier contient les informations suivantes :
 QU'EST-CE QUE GSolaar ?
 -----------------------------
 
-    GSolaar permet la visualisation de polyèdres et la génération de leurs 
+    GSolaar permet la visualisation de polyÃ¨dres et la gÃ©nÃ©ration de leurs 
   patrons (en PostScript et en SVG) en vue d'une construction papier selon
   certaines restrictions (voir fonctionnement).
 
-    Ce projet fait suite à un travail d'étude et de recherche effectué à 
-  l'Université de Nantes qui était encadré par Philippe Martin.
+    Ce projet fait suite Ã  un travail d'Ã©tude et de recherche effectuÃ© Ã  
+  l'UniversitÃ© de Nantes qui Ã©tait encadrÃ© par Philippe Martin.
 
     Il utilise le programme "kaleido" du Dr. Zvi Har'El du Department of
-  Mathematics, Technion à l'Israel Institute of Technology, permettant la
-  génération de polyèdres uniformes sous forme de matrices d'adjacence.
+  Mathematics, Technion Ã  l'Israel Institute of Technology, permettant la
+  gÃ©nÃ©ration de polyÃ¨dres uniformes sous forme de matrices d'adjacence.
 
-    La bibliothèque "saa" permet la génération, la visualisation et le
-  traitement de ces polyèdres d'après un modèle dit arêtes-ailées.
-    La bibliothèque "gtk" implémente des widget permettant la manipulation
-  des polyèdres.
+    La bibliothÃ¨que "saa" permet la gÃ©nÃ©ration, la visualisation et le
+  traitement de ces polyÃ¨dres d'aprÃ¨s un modÃ¨le dit arÃªtes-ailÃ©es.
+    La bibliothÃ¨que "gtk" implÃ©mente des widgets permettant la manipulation
+  des polyÃ¨dres.
 
 
 UTILISATION
 -----------
 
-  Le projet GSolaar fournit deux exécutables :
+  Le projet GSolaar fournit deux exÃ©cutables :
   
   * solaar  : programme de traitement en ligne de commande
     -> voir la page de manuel de solaar
@@ -47,37 +47,37 @@ UTILISATION
 FONCTIONNEMENT DES PROGRAMMES
 -----------------------------
 
-    Tous les patrons de polyèdres ne peuvent pas être directement générés, en
-  particulier les polyèdres non-convexes dans lesquels les faces se croisent.
+    Tous les patrons de polyÃ¨dres ne peuvent pas Ãªtre directement gÃ©nÃ©rÃ©s, en
+  particulier les polyÃ¨dres non-convexes dans lesquels les faces se croisent.
     
-    En ce qui concerne les polyèdres non-orientés, le modèle arêtes-ailées avait
-  pour but de les éviter mais il s'est avéré que certains d'entre eux 
-  supportaient le modèle (exemple : #8 Octahemioctahedron). La détection de ces
-  polyèdres reste donc du ressort de l'utilisateur.
+    En ce qui concerne les polyÃ¨dres non-orientÃ©s, le modÃ¨le arÃªtes-ailÃ©es avait
+  pour but de les Ã©viter mais il s'est avÃ©rÃ© que certains d'entre eux 
+  supportaient le modÃ¨le (exemple : #8 Octahemioctahedron). La dÃ©tection de ces
+  polyÃ¨dres reste donc du ressort de l'utilisateur.
 
-    Enfin, on notera que les polyèdres qui conviennent à l'utilisation des
-  traitements doivent être étoilés (càd : tout sommet doit être visible
+    Enfin, on notera que les polyÃ¨dres qui conviennent Ã  l'utilisation des
+  traitements doivent Ãªtre Ã©toilÃ©s (cÃ d : tout sommet doit Ãªtre visible
   depuis le centre du solide).
 
-    Les différents traitements implémentés on pour but de conserver la partie
-  visible (de l'extérieur) des faces d'un polyèdre, cela se fait selon trois
+    Les diffÃ©rents traitements implÃ©mentÃ©s on pour but de conserver la partie
+  visible (de l'extÃ©rieur) des faces d'un polyÃ¨dre, cela se fait selon trois
   manipulations principales :
-  1. Découpage des faces en intersection
-  2. Elimination des faces intérieures
+  1. DÃ©coupage des faces en intersection
+  2. Elimination des faces intÃ©rieures
   3. Fusion des morceaux de faces restants
 
 
 COPYRIGHT
 ---------
 
-GSolaar Copyright (c) (2003-2004) Cédric COULIOU
+GSolaar Copyright (c) (2003-2004) CÃ©dric COULIOU
 Contact : sinsedrix@users.sourceforge.net
 
 
 CONTENU DU PAQUETAGE
 --------------------
 
-  Cette partie décrit le contenu du paquetage tel qu'il est fourni, c'est à
+  Cette partie dÃ©crit le contenu du paquetage tel qu'il est fourni, c'est Ã 
 dire avant compilation donc sans les binaires.
 
 
